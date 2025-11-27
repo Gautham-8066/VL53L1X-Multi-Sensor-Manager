@@ -1,7 +1,7 @@
 #ifndef VL53L1X_MANAGER_H
 #define VL53L1X_MANAGER_H
 
-#define UNIT_TEST 
+//#define UNIT_TEST 
 
 #include <Arduino.h>
 
