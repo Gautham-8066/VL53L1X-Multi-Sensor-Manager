@@ -24,7 +24,7 @@ void setup() {
     Serial.println("[ FAIL ] Manager returned Error.");
   }
 
-  // Step 3: Check if addresses were actually changed in memory
+  // Step 3:Check if addresses were actually changed in memory
   // We expect: Sensor 0 -> 0x30 (48), Sensor 1 -> 0x31 (49), Sensor 2 -> 0x32 (50)
   for (int i = 0; i < SENSOR_COUNT; i++) {
     Serial.print("Sensor "); Serial.print(i);
